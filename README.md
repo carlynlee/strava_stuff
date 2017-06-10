@@ -1,8 +1,6 @@
-# The Dead-Simple Step-by-Step Guide for Front-End Developers to Getting Up and Running with Node.JS, Express, Jade, and MongoDB
+# Aviation Stuff based on tutorial for Node, Express, MongoDB
 
-A tutorial and complete sample project for Front-End developers showing how to get Node, Express and Jade up and running, connected to MongoDB, and reading from / writing to the database.
-
-*New: Completely Updated for Express 4.0 based code, with Generator-Express Scaffolding*
+A simple project for aviation data showing how to get Node, Express and Jade up and running, connected to MongoDB, and reading from / writing to the database.
 
 ## Quickstart
 
@@ -10,10 +8,6 @@ A tutorial and complete sample project for Front-End developers showing how to g
 
 If you want to run this example code, you will need to do an NPM Install, as the node_modules directory has been removed from this repository.
 
-
-## Author
-
-Christopher Buecheler is a front-end developer for a small San Francisco startup. Previously he's worked for companies like GameSpy, OkCupid, Crispy Gamer, and Comcast. You can visit him at [his website](http://cwbuecheler.com).
 
 
 ## Contents
