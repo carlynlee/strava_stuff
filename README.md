@@ -1,13 +1,18 @@
 # Aviation Stuff based on tutorial for Node, Express, MongoDB
 
-A simple project for aviation data showing how to get Node, Express and Jade up and running, connected to MongoDB, and reading from / writing to the database.
+A simple project for aviation data showing how to get Node, Express and Jade up and running, connected to MongoDB, and reading from / writing to the database. [Visit the tutorial online](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/).
 
 ## Quickstart
 
-[Visit the tutorial online](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/). The rest of the project is provided just to show the functioning finished results. The tutorial will show you how to build all of this stuff, from downloading Node all the way to the end.
+'''
+npm install
+'''
 
-If you want to run this example code, you will need to do an NPM Install, as the node_modules directory has been removed from this repository.
+'''
+npm start
+'''
 
+[http://localhost:3000/newuser](http://localhost:3000/newuser)
 
 
 ## Contents
