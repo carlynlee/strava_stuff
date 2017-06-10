@@ -4,13 +4,13 @@ A simple project for aviation data showing how to get Node, Express and Jade up 
 
 ## Quickstart
 
-'''
+```
 npm install
-'''
+```
 
-'''
+```
 npm start
-'''
+```
 
 [http://localhost:3000/newuser](http://localhost:3000/newuser)
 
