@@ -4,10 +4,13 @@ A simple project for aviation data showing how to get Node, Express and Jade up 
 
 ## Quickstart
 
+
+If you want to run this example code, you will need to do an NPM Install, as the node_modules directory has been removed from this repository.
 ```
 npm install
 ```
 
+To start the node server 
 ```
 npm start
 ```
