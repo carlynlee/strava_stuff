@@ -1,9 +1,22 @@
 #!/usr/bin/env node
-var debug = require('debug')('my-application');
-var app = require('../app');
 
-app.set('port', process.env.PORT || 3000);
+//recreate gpx trkpt data from strava activity
+//data from uri: https://www.strava.com/activities/1101516243/streams?stream_types%5B%5D=time&stream_types%5B%5D=latlng&stream_types%5B%5D=altitude
+var time=require('../config/time.json');
+var latlng= require('../config/latlng.json');
+var altitude= require('../config/altitude.json');
+var moment = require('moment');
 
-var server = app.listen(app.get('port'), function() {
-  debug('Express server listening on port ' + server.address().port);
-});
+var timestring1 = "2017-07-26T13:44:00";//2017-07-26T08:30:00Z
+var startdate = moment(timestring1);
+
+
+for (i=0; i<time.time.length;i++)
+{
+console.log(
+        "<trkpt lat=\""+ latlng.latlng[i][0] +"\" lon=\""+ latlng.latlng[i][1] + "\">\n" +
+        "   <ele>" + altitude.altitude[i]+ "</ele>\n"+
+        "   <time>" +moment(startdate).add(time.time[i], 'seconds').format("YYYY-MM-DDTHH:mm:ss") + "Z</time>\n" +
+        "</trkpt> "
+);
+}
