@@ -1,6 +1,6 @@
-# Aviation Stuff based on tutorial for Node, Express, MongoDB
+# Strava Stuff
 
-A simple project for aviation data showing how to get Node, Express and Jade up and running, connected to MongoDB, and reading from / writing to the database. [Visit the tutorial online](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/).
+A simple project to play around with data retreived from Strava API
 
 ## Quickstart
 
@@ -12,17 +12,7 @@ npm install
 
 To start the node server 
 ```
-npm start
+node bin/www
 ```
 
-[http://localhost:3000/newuser](http://localhost:3000/newuser)
 
-
-## Contents
-
-* /public - static directories suchs as /images
-* /routes - route files for tutorial project
-* /views - views for tutorial project
-* README.md - this file
-* app.js - central app file for tutorial project
-* package.json - package info for tutorial project
